@@ -1,0 +1,33 @@
+name: gdscmusciplayer
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.1 <4.0.0'
+
+dependencies:
+
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  http: ^1.1.0 
+  just_audio: ^0.9.35
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  uses-material-design: true
